@@ -1,0 +1,16 @@
+[build-system]
+requires = ["uv_build >= 0.9.21, <0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "langsec"
+version = "0.0.1"
+authors = [
+  { name = "L3th4l" },
+  { name = "w1redch4d" }
+]
+description = "A suit to perform attacks against Language Models and generate a report"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
